@@ -1,0 +1,11 @@
+@startuml
+
+package "Module Docker Registry" {
+    [Docker Hub (Free)]
+    [Azure Docker Registry]
+}
+
+[Docker Hub (Free)] --> [Edge]
+[Azure Docker Registry] --> [Edge]
+
+@enduml
